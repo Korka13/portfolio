@@ -1,0 +1,49 @@
+const animateLeft = {
+  duration: 1000,
+  delay: 0,
+  left: true,
+  right: false,
+  top: false,
+  bottom: false
+}
+
+const animateTopCascade = {
+  duration: 1000,
+  delay: 4000,
+  left: false,
+  right: false,
+  top: true,
+  bottom: false,
+  cascade: true
+}
+
+
+const homeTitle = {
+    text: "Hi, I'm Andrea Cau",
+    subtitle: {
+      text: "JavaScript Full Stack Developer",
+      animateOptions: animateTopCascade
+    },
+    cssClass: "Title-home",
+    animateOptions: animateLeft
+};
+
+const aboutTitle = {
+    text: "About me",
+    cssClass: "Title-about",
+    animateOptions: animateLeft
+};
+
+const projectsTitle = {
+    text: "My main projects",
+    cssClass: "Title-projects",
+    animateOptions: animateLeft
+};
+
+const contactTitle = {
+    text: "Get in touch",
+    cssClass: "Title-contact",
+    animateOptions: animateLeft
+};
+
+export {homeTitle, aboutTitle, projectsTitle, contactTitle};

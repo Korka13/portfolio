@@ -1,0 +1,17 @@
+.Home-page-container {
+    overflow: hidden;
+}
+
+.Title-home h1 {
+    font-size: 6rem;
+    padding-top: 6rem;
+}
+
+.Title-home h2 {
+  text-align: right;
+  margin-bottom: 8rem;
+}
+
+/* .NavigationPage-home {
+  font-size: 3rem;
+} */

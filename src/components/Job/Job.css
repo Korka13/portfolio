@@ -1,0 +1,15 @@
+.Job {
+  border: 20px solid #000;
+  padding: 2rem;
+  margin: 3rem;
+  border-radius: 10px;
+  flex: 1;
+}
+
+.Job-company {
+  display: flex;
+}
+
+.Job-company img {
+  width: 150px;
+}
