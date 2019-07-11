@@ -1,5 +1,5 @@
-import cchbcLogo from './img/CCHBC_logo.png';
-import msLogo from './img/Microsoft_logo.jpg';
+import evalueLogo from './img/cosmote.jpg';
+import teleperformanceLogo from './img/teleperformance.jpg';
 import asdaLogo from './img/ASDA_logo.jpg';
 
 
@@ -11,21 +11,21 @@ const aboutMeText = [
 
 const workExperiences = [
   {
-    company: "Cosmote e-value | Coca-Cola HBC",
+    company: "Cosmote e-value",
     position: "Service Desk Agent",
     description: "blah blah blah",
-    logo: cchbcLogo,
+    logo: evalueLogo,
     period: "12/2017 - Present"
   },
   {
-    company: "Teleperformance | Microsoft",
+    company: "Teleperformance",
     position: "Technical support Agent",
     description: "blah blah blah",
-    logo: msLogo,
+    logo: teleperformanceLogo,
     period: "06/2014 - 11/2017"
   },
   {
-    company: "ASDA | Associated Designers and Architects",
+    company: "ASDA",
     position: "Design Supervisor",
     description: "blah blah blah",
     logo: asdaLogo,

@@ -9,11 +9,6 @@ const Title = ({data}) => {
             <Bounce {...data.animateOptions}>
                 <h1>{data.text}</h1>
             </Bounce>
-            { data.subtitle &&
-              <Bounce {...data.subtitle.animateOptions}>
-                <h2>{data.subtitle.text}</h2>
-              </Bounce>
-            }
         </div>
     );
 };

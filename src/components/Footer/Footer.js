@@ -1,15 +1,11 @@
 import React from 'react';
-import Slide from 'react-reveal/Slide';
 import './Footer.css'
 
-
-const Footer = ({data, pageClass}) => {
+const Footer = ({footerData}) => {
   return (
-    <Slide {...data.animateOptions}>
-      <footer className={`Footer ${pageClass}`}>                                     
-        {data.text}
+      <footer className="Footer">                                     
+        {footerData}
       </footer>
-    </Slide>
   );
 };
 

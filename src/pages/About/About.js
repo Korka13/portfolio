@@ -1,12 +1,11 @@
 import React from 'react';
+import Slide from 'react-reveal/Slide';
 import Navigation from '../../components/Navigation/Navigation';
 import Title from '../../components/Title/Title';
-import IntroAboutMe from '../../components/IntroAboutMe/IntroAboutMe';
+import Paragraphs from '../../components/Paragraphs/Paragraphs';
 import Job from '../../components/Job/Job'
-import Footer from '../../components/Footer/Footer';
 import {aboutTitle} from '../../data/Titles'
 import {aboutNav} from '../../data/Navigations';
-import {normalFooter} from '../../data/Footers';
 import {aboutMeText, workExperiences} from '../../data/About';
 
 import './About.css';
@@ -14,18 +13,17 @@ import './About.css';
 const About = () => {
     return (
         <div>
-            <div class="page-container">
-                <div class="content-wrap">
-                    <Title data={aboutTitle} />
-                    <Navigation linksSet={aboutNav} />
-                    <IntroAboutMe paragraphs={aboutMeText} />
-                    <div className="About-workExperience">
-                      <h2>Work Experience</h2>
-                      {workExperiences.map(job => <Job jobDetails={job} />)}
-                    </div>
-                </div>
-                <Footer data={normalFooter} pageClass="aboutFooter" />
+          <Title data={aboutTitle} />
+          <Navigation linksSet={aboutNav} />
+          <Slide left delay={3000}>
+            <div>
+              <Paragraphs paragraphs={aboutMeText} />
+              <div className="About-workExperience">
+                <h2>Work Experience</h2>
+                {workExperiences.map(job => <Job jobDetails={job} />)}
+              </div>
             </div>
+          </Slide>
         </div>
     );
 };

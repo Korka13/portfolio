@@ -35,7 +35,7 @@ const aboutTitle = {
 };
 
 const projectsTitle = {
-    text: "My main projects",
+    text: "Projects",
     cssClass: "Title-projects",
     animateOptions: animateLeft
 };

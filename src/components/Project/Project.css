@@ -1,0 +1,43 @@
+.Project {
+  border: 15px solid #000;
+  /* padding: 2rem; */
+  margin-bottom: 3rem;
+  border-radius: 10px;
+  flex: 1;
+  text-align: center;
+}
+
+.Project-image {
+  margin: 1rem;
+}
+
+.Project-image img {
+  padding: 2px;
+  width: 90%;
+  border: 5px solid #000;
+  border-radius: 3px;
+}
+
+.Project-technologies {
+  list-style: none;
+  padding: 0;
+}
+
+.Project-links {
+  margin: 10px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Project-link-icon {
+  color: #000;
+  font-size: 1.4rem;
+}
+
+.Project-link-icon-code {
+  font-weight: 700;
+}
+
+.Project-link-icon-web {
+  font-weight: 500;
+}

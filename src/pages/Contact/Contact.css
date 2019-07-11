@@ -1,0 +1,29 @@
+.Contact-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Contact-me-image {
+  margin: 0 30%;
+}
+
+.Contact-me-image img{
+  width: 100%;
+  border-radius: 50%;
+}
+
+.Contact-me-email, .Contact-me-phone {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+
+.Contact-me-social {
+
+}
+
+.Contact-me-social img {
+  width: 40px;
+  margin: 10px;
+  cursor: pointer;
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import Bounce from 'react-reveal/Bounce';
+import Zoom from 'react-reveal/Zoom';
 import { NavLink } from 'react-router-dom';
 
 import './Navigation.css';
@@ -10,11 +10,11 @@ const Navigation = ({linksSet}) => {
         <div className="Navigation">
         {linksSet.map((link, i) => {
             return (
-            <Bounce {...link.animateOptions}>
+            <Zoom {...link.animateOptions}>
               <div className="Navigation-linkwrapper">
                 <NavLink className={`Navigation-navlink ${link.linkCssClass} ${link.pageCssClass}`} to={link.to}>{link.text}</NavLink>
               </div>
-            </Bounce>
+            </Zoom>
             )
         })}
         </div>

@@ -14,6 +14,7 @@ const animateOptionsBottom = {
     top: false,
     bottom: true,
 };
+
 const homePageCssClass = {
     pageCssClass: "NavigationPage-home"
 }

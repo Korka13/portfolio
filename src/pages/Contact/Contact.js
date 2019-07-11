@@ -1,21 +1,29 @@
 import React from 'react';
 import Navigation from '../../components/Navigation/Navigation';
 import Title from '../../components/Title/Title';
-import Footer from '../../components/Footer/Footer';
 import {contactTitle} from '../../data/Titles'
 import {contactNav} from '../../data/Navigations';
-import {normalFooter} from '../../data/Footers';
+import me from '../../data/Contacts';
+
+import './Contact.css';
 
 const Contact = () => {
     return (
         <div>
-            <div class="page-container">
-                <div class="content-wrap">
-                    <Title data={contactTitle} />
-                    <Navigation linksSet={contactNav} />
-                </div>
-                <Footer data={normalFooter} pageClass="aboutFooter" />
+          <Title data={contactTitle} />
+          <Navigation linksSet={contactNav} />
+          <div className="Contact-me">
+            <div className="Contact-me-image">
+              <img src={me.image} alt="Gull"/>
             </div>
+            <h3 className="Contact-me-name">{me.name}</h3>
+            <h4 className="Contact-me-email">{me.email}</h4>
+            <p className="Contact-me-phone">{me.phone}</p>
+            <div className="Contact-me-social">
+              <a href={me.github.link}><img src={me.github.icon} alt="github icon"/></a>
+              <a href={me.linkedin.link}><img src={me.linkedin.icon} alt="linkedin icon"/></a>
+            </div>
+          </div>
         </div>
     );
 };

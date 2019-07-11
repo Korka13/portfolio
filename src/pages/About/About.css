@@ -1,6 +1,7 @@
 .About-workExperience {
-  display: table;
+  /* display: table; */
   margin: 0 auto;
+  padding: 0 2rem;
 }
 
 .About-workExperience h2 {

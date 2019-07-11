@@ -1,23 +1,30 @@
 import React from 'react';
+import Slide from 'react-reveal/Slide';
 import Navigation from '../../components/Navigation/Navigation';
 import Title from '../../components/Title/Title';
-import Footer from '../../components/Footer/Footer';
+import Paragraphs from '../../components/Paragraphs/Paragraphs';
+import Project from '../../components/Project/Project';
 import {projectsTitle} from '../../data/Titles'
 import {projectsNav} from '../../data/Navigations';
-import {normalFooter} from '../../data/Footers';
+import {projectsText, projects} from '../../data/Projects';
+
+import './Projects.css';
 
 const Projects = () => {
-    return (
-        <div>
-            <div class="page-container">
-                <div class="content-wrap">
-                    <Title data={projectsTitle} />
-                    <Navigation linksSet={projectsNav} />
-                </div>
-                <Footer data={normalFooter} pageClass="aboutFooter" />
-            </div>
+  return (
+    <div>
+      <Title data={projectsTitle} />
+      <Navigation linksSet={projectsNav} />
+      <Slide left delay={3000}>
+      <div>
+      <Paragraphs paragraphs={projectsText} />
+        <div className="Projects-container">
+        {projects.map(project => <Project projectDetails={project} />)}
         </div>
-    );
+      </div>
+      </Slide>
+    </div>
+  );
 };
 
 export default Projects;
