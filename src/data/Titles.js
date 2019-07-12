@@ -46,4 +46,10 @@ const contactTitle = {
     animateOptions: animateLeft
 };
 
-export {homeTitle, aboutTitle, projectsTitle, contactTitle};
+const errorTitle = {
+    text: "404...",
+    cssClass: "Error-contact",
+    animateOptions: animateLeft
+}
+
+export {homeTitle, aboutTitle, projectsTitle, contactTitle, errorTitle};

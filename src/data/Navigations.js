@@ -27,6 +27,9 @@ const projectsPageCssClass = {
 const contactPageCssClass = {
     pageCssClass: "NavigationPage-home"
 }
+const errorPageCssClass = {
+    pageCssClass: "NavigationPage-error"
+}
 const homeLink = {    
     linkCssClass: "NavigationLink-contact",
     to: "/",
@@ -115,5 +118,27 @@ const contactNav = [
         ...projectsLink
     }
 ];
+const errorNav = [
+    {
+        animateOptions: animateOptionsTop,
+        ...errorPageCssClass,
+        ...homeLink
+    },
+    {
+        animateOptions: animateOptionsBottom,
+        ...errorPageCssClass,
+        ...aboutLink
+    },
+    {
+        animateOptions: animateOptionsBottom,
+        ...errorPageCssClass,
+        ...projectsLink
+    },
+    {
+        animateOptions: animateOptionsTop,
+        ...errorPageCssClass,
+        ...contactLink
+    }
+];
 
-export {homeNav, aboutNav, projectsNav, contactNav}
+export {homeNav, aboutNav, projectsNav, contactNav, errorNav};

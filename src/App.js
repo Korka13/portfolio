@@ -5,7 +5,7 @@ import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
 import Projects from './pages/Projects/Projects';
-import Error from './pages/Error';
+import Error from './pages/404/404';
 import Footer from './components/Footer/Footer';
 
 import footerData from './data/Footer';
@@ -14,7 +14,7 @@ import './App.css';
 
 const App = () => {
   return (
-    <BrowserRouter >
+    <BrowserRouter basename="/portfolio" >
       <div className="page-container">
         <div className="content-wrap">
           <Switch>
