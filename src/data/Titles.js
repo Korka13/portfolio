@@ -9,7 +9,7 @@ const animateLeft = {
 
 const animateTopCascade = {
   duration: 1000,
-  delay: 4000,
+  delay: 3000,
   left: false,
   right: false,
   top: true,

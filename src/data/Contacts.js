@@ -1,4 +1,4 @@
-import gull from './img/gull12.png';
+import gull from './img/gull13.svg';
 import githubIcon from './img/github.svg'
 import linkedinIcon from './img/linkedin.svg'
 

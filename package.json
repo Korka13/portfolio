@@ -1,8 +1,8 @@
 {
   "name": "portfolio",
+  "homepage": "https://korka13.github.io/portfolio/",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Korka13/portfolio",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
