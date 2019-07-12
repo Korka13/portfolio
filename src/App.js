@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter , Route, Switch } from 'react-router-dom';
 
 import Home from './pages/Home/Home';
 import About from './pages/About/About';
@@ -14,7 +14,7 @@ import './App.css';
 
 const App = () => {
   return (
-    <HashRouter>
+    <BrowserRouter >
       <div className="page-container">
         <div className="content-wrap">
           <Switch>
@@ -27,7 +27,7 @@ const App = () => {
         </div>
         <Footer footerData={footerData} />
       </div>
-    </HashRouter>
+    </BrowserRouter >
   );
 }
 
