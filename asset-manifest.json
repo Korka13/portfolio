@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Korka13/portfolio/static/css/main.4023fb7c.chunk.css",
+    "main.js": "/Korka13/portfolio/static/js/main.364dd2e7.chunk.js",
+    "main.js.map": "/Korka13/portfolio/static/js/main.364dd2e7.chunk.js.map",
+    "runtime~main.js": "/Korka13/portfolio/static/js/runtime~main.846d5cb8.js",
+    "runtime~main.js.map": "/Korka13/portfolio/static/js/runtime~main.846d5cb8.js.map",
+    "static/js/2.eca68da6.chunk.js": "/Korka13/portfolio/static/js/2.eca68da6.chunk.js",
+    "static/js/2.eca68da6.chunk.js.map": "/Korka13/portfolio/static/js/2.eca68da6.chunk.js.map",
+    "index.html": "/Korka13/portfolio/index.html",
+    "precache-manifest.c0825c4d9645bd25d9a6f9fefd129ffa.js": "/Korka13/portfolio/precache-manifest.c0825c4d9645bd25d9a6f9fefd129ffa.js",
+    "service-worker.js": "/Korka13/portfolio/service-worker.js",
+    "static/css/main.4023fb7c.chunk.css.map": "/Korka13/portfolio/static/css/main.4023fb7c.chunk.css.map",
+    "static/media/ASDA_logo.jpg": "/Korka13/portfolio/static/media/ASDA_logo.69365c41.jpg",
+    "static/media/background.gif": "/Korka13/portfolio/static/media/background.009d90fb.gif",
+    "static/media/cosmote.jpg": "/Korka13/portfolio/static/media/cosmote.dfa3ffc1.jpg",
+    "static/media/extraordinary-test.gif": "/Korka13/portfolio/static/media/extraordinary-test.c9a7e6c4.gif",
+    "static/media/github.svg": "/Korka13/portfolio/static/media/github.76d344f0.svg",
+    "static/media/guess.gif": "/Korka13/portfolio/static/media/guess.99b0f557.gif",
+    "static/media/gull12.png": "/Korka13/portfolio/static/media/gull12.72800fae.png",
+    "static/media/instagen.png": "/Korka13/portfolio/static/media/instagen.7ccfdd98.png",
+    "static/media/linkedin.svg": "/Korka13/portfolio/static/media/linkedin.5b238434.svg",
+    "static/media/teleperformance.jpg": "/Korka13/portfolio/static/media/teleperformance.de494ce0.jpg"
+  }
+}
