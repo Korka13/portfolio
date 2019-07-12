@@ -7,8 +7,8 @@ const aboutMeText = [
   "I'm a self-taught web developer, I love JavaScript and everything around it.",
   "I have a good knowledge of HTML, CSS, JavaScript, React and NodeJS.",
   "I'm from Italy, and I'm currently living in Athens, Greece.",
-  "I like to challange myself and learn new things, while implementing them in new cool projects",
-  "I'm looking for a position in the web development industry, as I want to do what I love as my full time job, and also improve my skills",
+  "I like to challange myself and learn new things, while implementing them in new cool projects.",
+  "I'm looking for a position in the web development industry, as I want to do what I love as my full time job, and also improve my skills.",
   "Have a look at my projects on GitHub, if you are interested in a collaboration or just want to have a chat, drop me an email or give me a call!"
 ];
 
