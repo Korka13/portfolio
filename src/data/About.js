@@ -15,6 +15,7 @@ const aboutMeText = [
 const workExperiences = [
   {
     company: "Cosmote e-value",
+    link: "https://www.cosmote-evalue.gr/",
     position: "Service Desk Agent",
     description: "Cosmote e-value is one of the biggest business process and customer experience outsourcing companies in Athens, Greece (but they have branches in other countries as well). I'm working here as a Service Desk Agent for CCHBC Italy, being responsible to handle issues and request related to hardware and software systems, including Apple and Windows devices, SAP, Active Directory, Microsoft Office 365, Citrix.",
     logo: evalueLogo,
@@ -22,6 +23,7 @@ const workExperiences = [
   },
   {
     company: "Teleperformance",
+    link: "https://www.teleperformance.com/en-us/",
     position: "Technical support Agent",
     description: "Teleperformance is one of the most important outsourcing customer care companies in the world, I've worked for the Greek branch. Here I've been part of the Microsft project, as a Tier 1 agent first and as Tier 2 later, giving technical support to the consumers of any Microsft product, including Windows, Office and OWA.",
     logo: teleperformanceLogo,
@@ -29,6 +31,7 @@ const workExperiences = [
   },
   {
     company: "ASDA",
+    link: "https://www.facebook.com/asdadesign/",
     position: "Design Supervisor",
     description: "Associated Designers and Architects is based in Singapore, and I've been managing their interior design projects. Reporting directly to the Executive Director I was resposnible for every contract and coordination with contractors and suppliers, ensuring also the proper delivery of work from my team to make the job done as expected and within deadlines",
     logo: asdaLogo,

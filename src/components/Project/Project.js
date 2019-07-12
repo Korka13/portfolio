@@ -8,7 +8,7 @@ const webIcon= "www";
 const Project = ({projectDetails}) => {
   return (
     <div className="Project">
-      <h3>{projectDetails.title}</h3>
+      <h3 className="Project-title">{projectDetails.title}</h3>
       <div className="Project-image">
         <img src={projectDetails.image} alt={projectDetails.title}/>
       </div>      

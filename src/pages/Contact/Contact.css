@@ -2,10 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.Contact-me-image {
-  margin: 0 30%;
+  margin-top: 5vh;
 }
 
 .Contact-me-image img{

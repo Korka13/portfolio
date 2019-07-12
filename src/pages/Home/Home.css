@@ -12,3 +12,21 @@
 /* .NavigationPage-home {
   font-size: 3rem;
 } */
+
+@media (min-width: 650px) {
+  .Title-home h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 850px) {
+  .Title-home h1 {
+    font-size: 5rem;
+  }
+}
+
+@media (min-width: 950px) {
+  .Title-home h1 {
+    font-size: 6rem;
+  }
+}

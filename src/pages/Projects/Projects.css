@@ -1,4 +1,11 @@
 .Projects-container {
+  display: table;
   margin: 0 auto;
   padding: 0 1rem;
+}
+
+@media (min-width: 450px) {
+  .Projects-container {
+    padding: 0 3rem;
+  }
 }

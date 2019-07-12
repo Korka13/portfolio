@@ -1,9 +1,22 @@
 .About-workExperience {
-  /* display: table; */
+  display: table;
   margin: 0 auto;
   padding: 0 1rem;
 }
 
 .About-workExperience h2 {
   text-align: center;
+  margin: 1rem 0;
+}
+
+@media (min-width: 450px) {
+  .About-workExperience {
+    padding: 0 3rem;
+  }
+}
+
+@media (min-width: 450px) {
+  .About-workExperience h2 {
+    font-size: 2rem;
+  }
 }

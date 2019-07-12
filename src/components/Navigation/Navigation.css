@@ -1,6 +1,5 @@
 .Navigation {
     display: flex;
-    /* flex-direction: column; */
     justify-content: space-around;
     align-items: center;
     padding: 1rem 0;
@@ -21,4 +20,35 @@
 .Navigation-navlink:hover {
   color: #fff;
   background-color: #000;
+}
+
+@media (min-width: 450px) {
+  .Navigation-navlink {
+    font-size: 1.3rem;
+    padding: .5rem 1rem;
+    border-radius: 7px;
+  }
+}
+
+@media (min-width: 650px) {
+  .Navigation-navlink {
+    font-size: 1.6rem;
+    padding: .75rem 1.5rem;
+  }
+}
+
+@media (min-width: 850px) {
+  .Navigation-navlink {
+    font-size: 1.8rem;
+    padding: 1rem 2rem;
+  }
+}
+
+@media (min-width: 950px) {
+  .Navigation-navlink {
+    font-size: 2rem;
+  }
+  .Navigation {
+    margin: 1rem calc((100vw - 950px) / 2)
+  }
 }
