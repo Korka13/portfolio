@@ -10,8 +10,8 @@ const Job = ({jobDetails}) => {
         <img src={jobDetails.logo} alt={jobDetails.company}/>
         <h4>{jobDetails.company}</h4>        
       </div>
-      <p>{jobDetails.description}</p>
-      <p>{jobDetails.period}</p>
+      <p className="Job-description">{jobDetails.description}</p>
+      <p className="Job-period">{jobDetails.period}</p>
     </div>
   );
 };

@@ -18,8 +18,8 @@
   direction: rtl;
 }
 
-.Contact-me-social {
-
+.Contact-me-name, .Contact-me-email, .Contact-me-phone {
+  margin: 0 0 10px 0;
 }
 
 .Contact-me-social img {
