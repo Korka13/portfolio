@@ -47,8 +47,8 @@ const contactTitle = {
 };
 
 const errorTitle = {
-    text: "404...",
-    cssClass: "Error-contact",
+    text: "Ops...",
+    cssClass: "Title-error",
     animateOptions: animateLeft
 }
 

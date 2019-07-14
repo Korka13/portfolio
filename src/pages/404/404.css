@@ -1,0 +1,25 @@
+.Title-error h1 {
+  padding-top: 30vh;
+}
+
+.Error p {
+  text-align: center;
+}
+
+@media (min-width: 650px) {
+.Title-error h1 {
+  font-size: 4rem;
+}
+}
+
+@media (min-width: 850px) {
+.Title-error h1 {
+  font-size: 5rem;
+}
+}
+
+@media (min-width: 950px) {
+.Title-error h1 {
+  font-size: 6rem;
+}
+}
