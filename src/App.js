@@ -14,7 +14,7 @@ import './App.css';
 
 const App = () => {
   return (
-    <BrowserRouter basename="/portfolio" >
+    <BrowserRouter >
       <div className="page-container">
         <div className="content-wrap">
           <Switch>
