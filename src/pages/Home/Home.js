@@ -1,9 +1,10 @@
 import React from 'react';
+
 import Navigation from '../../components/Navigation/Navigation';
 import Title from '../../components/Title/Title';
 import Subtitle from '../../components/Subtitle/Subtitle';
-import {homeTitle} from '../../data/Titles'
-import {homeNav} from '../../data/Navigations';
+
+import data from '../../data/Home/Home';
 
 import './Home.css';
 
@@ -12,10 +13,10 @@ const Home = () => {
     
     <div className="Home">
       <div className="Home-title-wrap">
-        <Title data={homeTitle} />
-        <Subtitle data={homeTitle.subtitle} />
+        <Title data={data.title} />
+        <Subtitle data={data.subtitle} />
       </div>
-      <Navigation linksSet={homeNav} />
+      <Navigation linksSet={data.navigation} />
     </div>
     
   );
