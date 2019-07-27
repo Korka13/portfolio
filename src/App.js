@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter , Route, Switch } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
+import Analytics from 'react-router-ga';
 
 import Home from './pages/Home/Home';
 import About from './pages/About/About';
@@ -16,19 +17,21 @@ import './App.css';
 const App = () => {
   return (
     <BrowserRouter >
-      <Helmet titleTemplate="%s | Andrea Cau" defaultTitle="Andrea Cau JavaScript Developer" />
-      <div className="page-container">
-        <div className="content-wrap">
-          <Switch>
-            <Route path="/" component={Home} exact />
-            <Route path="/about" component={About} exact />
-            <Route path="/contact" component={Contact} exact />
-            <Route path="/projects" component={Projects} exact />
-            <Route component={Error} />
-          </Switch>
+      <Analytics id="UA-124901497-11" debug>
+        <Helmet titleTemplate="%s | Andrea Cau" defaultTitle="Andrea Cau JavaScript Developer" />
+        <div className="page-container">
+          <div className="content-wrap">
+            <Switch>
+              <Route path="/" component={Home} exact />
+              <Route path="/about" component={About} exact />
+              <Route path="/contact" component={Contact} exact />
+              <Route path="/projects" component={Projects} exact />
+              <Route component={Error} />
+            </Switch>
+          </div>
+          <Footer footerData={footerData} />
         </div>
-        <Footer footerData={footerData} />
-      </div>
+      </Analytics>
     </BrowserRouter >
   );
 }
