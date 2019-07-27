@@ -6,6 +6,9 @@ const homePageCssClass = {
 }
 
 const data = {
+  head: {
+    description: "heme page description"
+  },
   title: {
     text: "Hi, I'm Andrea Cau",
     cssClass: "Title-home",

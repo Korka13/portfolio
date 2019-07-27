@@ -6,6 +6,9 @@ const errorPageCssClass = {
 }
 
 const data = {
+  head: {
+    title: "404 Not Found",
+  },
   title: {
     text: "Ops...",
     cssClass: "Title-error",

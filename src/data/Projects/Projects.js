@@ -11,6 +11,10 @@ const projectsPageCssClass = {
 }
 
 const data = {
+  head: {
+    title: "Projects",
+    description: "Projects page description"
+  },
   title: {
     text: "Projects",
     cssClass: "Title-projects",

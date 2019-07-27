@@ -1,5 +1,6 @@
 import React from 'react';
 import Slide from 'react-reveal/Slide';
+import Helmet from 'react-helmet';
 
 import Navigation from '../../components/Navigation/Navigation';
 import Title from '../../components/Title/Title';
@@ -12,7 +13,11 @@ import './Projects.css';
 
 const Projects = () => {
   return (
-    <div>
+    <div className="Projects">
+      <Helmet>
+        <meta name="description" content={data.head.description} />
+        <title>{data.head.title}</title>
+      </Helmet>
       <Title data={data.title} />
       <Navigation linksSet={data.navigation} />
       <Slide left delay={3000}>

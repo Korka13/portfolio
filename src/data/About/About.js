@@ -10,6 +10,10 @@ const aboutPageCssClass = {
 }
 
 const data = {
+  head: {
+    title: "About",
+    description: "About page description"
+  },
   title: {
     text: "About me",
     cssClass: "Title-about",

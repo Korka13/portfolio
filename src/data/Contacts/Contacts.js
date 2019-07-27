@@ -10,6 +10,10 @@ const contactPageCssClass = {
 }
 
 const data = {
+  head: {
+    title: "Contacts",
+    description: "Contact page description"
+  },
   title: {
     text: "Get in touch",
     cssClass: "Title-contact",
