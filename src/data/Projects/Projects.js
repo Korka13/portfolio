@@ -46,9 +46,9 @@ const data = {
     {
       title: "Instagram Hashtags Generator",
       image: instagenImage,
-      description: "Upload a picture or use a photo link to generate Hashtags relevant to the image",
+      description: "Upload a picture or use a photo link to generate hashtags relevant to the image",
       technologies: ["ReactJS", "Netlify Lambda"],
-      techDescription: "Serverless SPA built using ReactJS and Netlify Lambda. It uses Clarifai's AI API for image recogniction",
+      techDescription: "Serverless SPA built using ReactJS and Netlify Lambda. It uses Clarifai's AI API for image recognition",
       codeLink: "https://github.com/Korka13/instagram-hashtags-generator",
       webLink: "https://instagen.cau.cx/"
     },
@@ -64,7 +64,7 @@ const data = {
     {
       title: "Portfolio",
       image: andreaCauImage,
-      description: "My personal portfolio. Yes, the one you are on right now",
+      description: "My personal portfolio. The one you are on right now",
       technologies: ["ReactJS", "React Reveal", "React Router", "spa-github-pages", "react-router-ga"],
       techDescription: "Built with React and designed with a mobile first approach. It uses React Reveal for animations. Hosted on GitHub Pages with the help of spa-github-pages and react-router-ga",
       codeLink: "https://github.com/Korka13/portfolio",
@@ -73,7 +73,7 @@ const data = {
     {
       title: "Extraordinary Facts",
       image: extraordinaryImage,
-      description: "The place where you can share what extraordinary happened to you",
+      description: "The place where you can share extraordinary events happened to you",
       technologies: ["Node.js", "Express.Js", "EJS Templating", "MongoDB", "Bootstrap 4"],
       techDescription: "Community blog built with Express and MongoDB, it supports users registration, publishing and editing of content, password reset, image upload",
       codeLink: "https://github.com/Korka13/Extraordinary",
@@ -91,7 +91,7 @@ const data = {
     {
       title: "Background Gradient Previewer",
       image: backgroundImage,
-      description: "Select 2 colors and instantly preview a css background gradient. Once you are done copy the code and paste it on your own css.",
+      description: "Select 2 colors and instantly preview a css background gradient. Once you are done copy the code and paste it in your own css.",
       technologies: ["Javascript", "CSS", "JavaScript Libraries"],
       techDescription: "Built with JavaScript with the help of jscolor Color Picker and clipboardjs",
       codeLink: "https://github.com/Korka13/background-gradient-previewer",

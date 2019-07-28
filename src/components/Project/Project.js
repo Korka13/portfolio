@@ -13,7 +13,7 @@ const Project = ({projectDetails}) => {
         <img src={projectDetails.image} alt={projectDetails.title}/>
       </div>      
       <p className="Project-description">{projectDetails.description}</p>
-      <h4>Tecnology</h4>
+      <h4>Technology</h4>
       <ul className="Project-technologies">
         {projectDetails.technologies.map(t => <li>{t}</li>)}
       </ul>
