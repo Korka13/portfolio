@@ -12,7 +12,7 @@ const contactPageCssClass = {
 const data = {
   head: {
     title: "Contacts",
-    description: "Contact page description"
+    description: "Official contacts of Andea Cau, JavaScript Full Stack Developer"
   },
   title: {
     text: "Get in touch",

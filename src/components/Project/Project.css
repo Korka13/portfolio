@@ -25,6 +25,10 @@
   padding: 0;
 }
 
+.Project-description {
+  padding: .5rem;
+}
+
 .Project-links {
   margin: 10px 40px;
   display: flex;

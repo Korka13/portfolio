@@ -7,7 +7,7 @@ const homePageCssClass = {
 
 const data = {
   head: {
-    description: "heme page description"
+    description: "The portfolio website of Andrea Cau, JavaScript Full Stack Developer"
   },
   title: {
     text: "Hi, I'm Andrea Cau",
