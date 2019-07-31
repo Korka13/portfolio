@@ -27,8 +27,8 @@ const Contact = () => {
           <h4 className="Contact-me-email">{data.me.email}</h4>
           <p className="Contact-me-phone">{data.me.phone}</p>
           <div className="Contact-me-social">
-            <a href={data.me.github.link}><img src={data.me.github.icon} alt="github icon"/></a>
-            <a href={data.me.linkedin.link}><img src={data.me.linkedin.icon} alt="linkedin icon"/></a>
+            <a href={data.me.github.link} target="_blank" rel="noopener noreferrer"><img src={data.me.github.icon} alt="github icon"/></a>
+            <a href={data.me.linkedin.link} target="_blank" rel="noopener noreferrer"><img src={data.me.linkedin.icon} alt="linkedin icon"/></a>
           </div>
         </div>
       </Slide>

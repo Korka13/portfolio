@@ -19,8 +19,8 @@ const Project = ({projectDetails}) => {
       </ul>
       <p className="Project-description">{projectDetails.techDescription}</p>
       <div className="Project-links">
-        <a className="Project-link-icon Project-link-icon-code" href={projectDetails.codeLink}>{codeIcon}</a>
-        <a className="Project-link-icon Project-link-icon-web" href={projectDetails.webLink}>{webIcon}</a>
+        <a className="Project-link-icon Project-link-icon-code" href={projectDetails.codeLink} target="_blank" rel="noopener noreferrer">{codeIcon}</a>
+        <a className="Project-link-icon Project-link-icon-web" href={projectDetails.webLink} target="_blank" rel="noopener noreferrer">{webIcon}</a>
       </div>
       
     </div>
