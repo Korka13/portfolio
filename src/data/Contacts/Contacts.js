@@ -39,7 +39,7 @@ const data = {
   me: {
     image: gull,
     name: "Andrea Cau",
-    email: "ym.kooltuo@uac",
+    email: "ved.uacaerdna@ih",
     phone: "8458 161 896 0300",
     linkedin: {
       icon: linkedinIcon,
