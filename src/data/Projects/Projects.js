@@ -1,7 +1,7 @@
 import { homeLink, aboutLink, contactLink } from '../NavLinks/NavLinks';
 import { animateLeft, animateBottom, animateTop } from '../Animations/Animations';
 
-import instagenImage from './instagen.png';
+import instagenImage from './instagen.gif';
 import qoqtailsImage from './qoqtails.gif';
 import andreaCauImage from './andreacau.gif';
 import extraordinaryImage from './extraordinary-test.gif';
