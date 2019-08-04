@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.9d360ac2.chunk.css",
-    "main.js": "/static/js/main.c6863a82.chunk.js",
-    "main.js.map": "/static/js/main.c6863a82.chunk.js.map",
+    "main.js": "/static/js/main.11463269.chunk.js",
+    "main.js.map": "/static/js/main.11463269.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/js/2.6a96a4af.chunk.js": "/static/js/2.6a96a4af.chunk.js",
     "static/js/2.6a96a4af.chunk.js.map": "/static/js/2.6a96a4af.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ef6d5b9bd9092dcb497c1333169d2679.js": "/precache-manifest.ef6d5b9bd9092dcb497c1333169d2679.js",
+    "precache-manifest.e9be0291683cae3524e75682c31145a8.js": "/precache-manifest.e9be0291683cae3524e75682c31145a8.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.9d360ac2.chunk.css.map": "/static/css/main.9d360ac2.chunk.css.map",
     "static/media/ASDA_logo.jpg": "/static/media/ASDA_logo.69365c41.jpg",
@@ -19,7 +19,7 @@
     "static/media/github.svg": "/static/media/github.76d344f0.svg",
     "static/media/guess.gif": "/static/media/guess.4066ae34.gif",
     "static/media/gull13.svg": "/static/media/gull13.faabc2c7.svg",
-    "static/media/instagen.png": "/static/media/instagen.7ccfdd98.png",
+    "static/media/instagen.gif": "/static/media/instagen.9207d6d8.gif",
     "static/media/linkedin.svg": "/static/media/linkedin.5b238434.svg",
     "static/media/qoqtails.gif": "/static/media/qoqtails.10435165.gif",
     "static/media/teleperformance.jpg": "/static/media/teleperformance.de494ce0.jpg"
